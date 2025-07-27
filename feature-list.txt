@@ -1,0 +1,29 @@
+Voice of the City - Feature Checklist
+======================================
+
+Core Functionality
+------------------
+[x] Voice-First User Input via Microphone
+[x] Server-Side Audio Recording & Processing
+[x] High-Accuracy Multilingual Speech-to-Text Transcription
+[x] Automatic Spoken Language Identification (Supports Odia, Hindi, English, Spanish, French)
+[x] AI-Powered Travel Recommendations via Google Gemini 1.5 Pro
+[x] Flexible Response Generation (Handles requests for "1 place", "3 museums", etc.)
+[x] Clickable Google Maps Links for Each Recommendation
+
+
+User Interface & Experience
+---------------------------
+[x] Clean, Minimalist, Single-Action UI
+[x] Smooth Animations for State Transitions (Listening, Processing, Results)
+[x] Clear Visual Feedback for Application State
+[x] Fully Responsive Design for Mobile and Desktop
+
+
+Technical & Security
+--------------------
+[x] Full-Stack Decoupled Architecture (React Frontend, Spring Boot Backend)
+[x] Secure Server-Side Authentication with Google Cloud (Service Account)
+[x] Secure Management of All API Keys via Environment Variables
+[x] Fully Deployed and Publicly Accessible on Render & Vercel
+[x] Stateless Backend Ready for Scaling
