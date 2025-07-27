@@ -1,0 +1,19 @@
+# Ignore compiled Java classes and build artifacts
+/target/
+
+# Ignore IDE-specific files (IntelliJ, Eclipse, VSCode)
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings
+.vscode/
+
+# Ignore log files
+*.log
+
+# ===================================================================
+# CRITICAL: Ignore the Google Cloud credentials file to keep it private
+gcp-credentials.json
+# ===================================================================
