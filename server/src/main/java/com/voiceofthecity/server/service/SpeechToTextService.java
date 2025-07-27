@@ -6,6 +6,8 @@ import com.google.auth.oauth2.ServiceAccountCredentials;
 import com.google.cloud.speech.v1p1beta1.*;
 import com.google.cloud.translate.v3.*;
 import com.google.protobuf.ByteString;
+import com.voiceofthecity.server.service.SpeechToTextService.TranscriptionResult;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -21,7 +23,7 @@ public class SpeechToTextService {
 
     private static final Logger log = LoggerFactory.getLogger(SpeechToTextService.class);
 
-    @Value("${gcp.credentials.path}")
+    @Value("file:${gcp.credentials.path}")
     private Resource gcpCredentials;
 
     public static class TranscriptionResult {
