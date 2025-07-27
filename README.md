@@ -98,13 +98,3 @@ To get the project running on your local machine, follow these steps.
     npm start
     ```
     The application will open at `http://localhost:3000`.
-
-## 🏆 Hackathon Judging Criteria Alignment
-
-This project was designed to excel across all judging categories:
-
-*   **Technical Implementation (30%):** Demonstrates a robust, full-stack architecture with a decoupled frontend and backend. It successfully integrates two distinct, powerful Google AI services using secure, professional-grade authentication methods (Service Accounts).
-*   **Core Functionality (25%):** The MVP is 100% functional and showcases a complete, real-world user flow. The multilingual and flexible response features are live and work as intended.
-*   **UI/UX & Accessibility (20%):** The minimalist, voice-first design is inherently accessible and intuitive. Smooth animations and clear visual state indicators (listening, processing, error) create a polished and enjoyable user experience.
-*   **Innovation & Use of AI/Voice (15%):** The project's core innovation is the seamless, *automatic* language detection pipeline, moving beyond simple browser tools to a professional, server-side solution that feels magical to the end-user.
-*   **Scalability/Security (10%):** Adheres to security best practices by managing all credentials outside the codebase via environment variables and secret files. The stateless, container-ready architecture is built to scale.
