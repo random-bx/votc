@@ -2,7 +2,7 @@
 
 **A seamless, multilingual AI travel assistant powered by voice.**
 
-**Live Application Link:** **[https://[YOUR_LIVE_DEMO_URL].vercel.app](https://[YOUR_LIVE_DEMO_URL].vercel.app)**
+**Live Application Link:** **https://votc.vercel.app/**
 
 ---
 
